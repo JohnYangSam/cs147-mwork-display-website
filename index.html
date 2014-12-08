@@ -12,10 +12,11 @@
     <title>mWork</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -277,6 +278,18 @@
             <script async src="//static.proto.io/api/widget-embed.js"></script>
         </div>
     </aside>
+
+    <aside style="background-color:#428bca;color:white;padding:10px;">
+        <div class="portfolio-item text-center">
+            <h2 class="protoio-header">High-Fi Prototype</h2>
+            <div class="row">
+                <a href="assets/assignments/15/mwork-debug.apk"><img id="mwork-apk-button" alt="mWork Logo" src="assets/img/mwork_logo_hi_res_512.png"/></a>
+            </div>
+            <div class="row">
+                <a href="assets/assignments/13/mWorkcollatedhueristicevaluation.pdf" class="btn btn-lg btn-dark">High-Fi Writeup</a>
+            </div>
+        </div>
+    </aside>
     
     <!-- Footer -->
     <footer>
@@ -334,6 +347,18 @@
         });
     });
     </script>
+
+    <!-- Custom JS -->
+    <script>
+    $("#mwork-apk-button").hover(
+        function(e) {
+            this.setAttribute('src', 'assets/img/mwork_logo_hi_res_512_dark.png');
+        }, function(e) {
+            this.setAttribute('src', 'assets/img/mwork_logo_hi_res_512.png');
+        }
+    );
+    </script>
+
 
 </body>
 
