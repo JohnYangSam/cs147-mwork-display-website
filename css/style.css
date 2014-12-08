@@ -1,6 +1,5 @@
 /* Custom styles */
 
-
 .callout2 {
     display: table;
     width: 100%;
@@ -11,6 +10,11 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#header-logo {
+    height: 100px;
+    width: 100px;
 }
 
 #mwork-apk-button {
