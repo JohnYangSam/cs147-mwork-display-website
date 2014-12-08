@@ -1,0 +1,19 @@
+/* Custom styles */
+
+
+.callout2 {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../assets/img/callout2.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#mwork-apk-button {
+    height:256px;
+    width:256px;
+}
