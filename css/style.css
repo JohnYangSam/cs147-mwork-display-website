@@ -17,6 +17,20 @@
     width: 100px;
 }
 
+.mWork-title {
+    color: white;
+}
+
+.protoio-embed-prototype {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.protoio-header {
+    margin-top: 60px;
+}
+
 #mwork-apk-button {
     height: 256px;
     width: 256px;
