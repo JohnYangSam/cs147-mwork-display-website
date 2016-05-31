@@ -1,0 +1,43 @@
+/* Custom styles */
+
+.callout2 {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../assets/img/callout2.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#header-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.mWork-title {
+    color: white;
+}
+
+.protoio-embed-prototype {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.protoio-header {
+    margin-top: 60px;
+}
+
+.white-shaded {
+    background-color: white;
+    opacity: 0.5;
+}
+
+#mwork-apk-button {
+    height: 256px;
+    width: 256px;
+    margin-bottom: 10px;
+}
